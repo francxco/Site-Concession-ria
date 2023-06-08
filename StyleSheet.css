@@ -1,0 +1,152 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(195, 195, 195));
+}
+head {
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(195, 195, 195));
+
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: #000000;
+    text-align: center;
+   
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 1em 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-right: 1em;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+#container {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom img {
+    max-width: 100%;
+
+    transition: all 0.3s;
+}
+
+.zoom:hover img {
+
+    transform: scale(1.1);
+}
+
+.text item {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    right: 5%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+    padding: 0.7em 1.3em;
+    cursor: pointer;
+    background: linear-gradient(90deg, #5a5a5a 0%, #b4b4b4 100%);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.zoom-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition-duration: 0.3s;
+    transition-property: box-shadow, transform;
+}
+
+.zoom-shadow:hover,
+.zoom-shadow:focus,
+.zoom-shadow:active {
+    box-shadow: 0 13px 8px -8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+.text-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
